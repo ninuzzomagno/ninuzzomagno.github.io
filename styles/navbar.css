@@ -1,0 +1,12 @@
+#navbar{
+    border: 1px solid red;
+}
+
+#navbar a{
+    text-decoration: none;
+    color:grey;
+}
+
+#navbar a:hover{
+    color:black;
+}
