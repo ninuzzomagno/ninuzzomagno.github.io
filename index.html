@@ -5,11 +5,16 @@
     <link rel="stylesheet" href="styles/home.css">
     <meta name="viewport" content= "width=device-width, initial-scale=1.0">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $("#loadContent").load("pages/navbar.html");
+        });
+    </script>
 </head>
 <body>
 
-    <div id="navbar"></div>
-    
+    <div id="loadContent"></div>
+
     <div id="intro">
         <p>
             <h3>
@@ -17,12 +22,6 @@
             </h3>
         </p>
     </div>
-
-    <script>
-        $(document).ready(function() {
-            $("#navbar").load("pages/navbar.html");
-        });
-    </script>
 
 </body>
 

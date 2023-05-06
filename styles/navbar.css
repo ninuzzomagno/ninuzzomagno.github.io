@@ -1,8 +1,14 @@
 #navbar{
-    border: 1px solid red;
+    margin: 8vh;
+    position: relative;
+    display:inline-block;
+    position:absolute;
+    right:0;
 }
 
 #navbar a{
+    font-size:x-large;
+    margin:5vh;
     text-decoration: none;
     color:grey;
 }
