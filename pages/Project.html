@@ -1,26 +1,27 @@
 <!DOCTYPE html>
 <head>
-    <title>Ninuzzomagno</title>
+    <title>Projects</title>
+    <link rel="stylesheet" href="../styles/pages.css">
+    <link rel="stylesheet" href="../styles/home.css">
+    <meta name="viewport" content= "width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $("#loadContent").load("navbar.html");
+            let t = $(document).attr('title');
+            console.log($("#loadContent nav").html);
+            $("div#loadContent > nav > a").each(function(){
+                console.log($(this));
+                if ($(this).text == t){
+                    $(this).attr("color:black");
+                }
+            });
+        });
+    </script>
 </head>
 <body>
-    <nav>
-        <ul>
-            <li>
-                Home
-            </li>
-            <li>
-                <a href = "pages/Project.html">Project</a>
-            </li>
-        </ul>
-    </nav>
 
-    <div>
-        <p>
-            <h3> Projects list </h3>
-            <ul>
-                <li><a href="project/liquidfun.html">Liquidfun for PSP</a></li>
-            </ul>
-        </p>
-    </div>
+    <div id="loadContent" attr = "2"></div>
 
 </body>
+

@@ -16,3 +16,20 @@
 #navbar a:hover{
     color:black;
 }
+
+@media only screen and (max-width:425px) {
+    #navbar{
+        margin: 2vh;
+        position: relative;
+        display:inline-block;
+        position:absolute;
+        right:0;
+    }
+
+    #navbar a{
+        font-size:large;
+        margin:1vh;
+        text-decoration: none;
+        color:grey;
+    }
+}
