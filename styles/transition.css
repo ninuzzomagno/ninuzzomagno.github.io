@@ -1,0 +1,44 @@
+@view-transition{
+    navigation: auto;
+}
+
+#page_tr {
+    view-transition-name: page_tr;
+}
+
+::view-transition-old(page_tr),
+::view-transition-new(page_tr) {
+    animation-duration: 0.8s;
+    animation-fill-mode: both;
+    mix-blend-mode: normal;
+    opacity: 1 !important; 
+}
+
+ ::view-transition-group(page_tr){
+    animation-duration: 0s;
+}
+
+::view-transition-group(page_tr){
+    animation-duration: 0s;
+}
+
+@keyframes move_out_left { from { transform: translateX(0%); } to { transform: translateX(-100%); } }
+@keyframes move_in_right { from { transform: translateX(100%); } to { transform: translateX(0%); } }
+
+@keyframes move_out_right { from { transform: translateX(0%); } to { transform: translateX(100%); } }
+@keyframes move_in_left { from { transform: translateX(-100%); } to { transform: translateX(0%); } }
+
+.avanti::view-transition-old(page_tr) {
+    animation: 0.5s ease-in both move_out_left;
+}
+
+.avanti::view-transition-new(page_tr) {
+    animation: 0.5s ease-in both move_in_right;
+}
+
+.indietro::view-transition-old(page_tr) {
+    animation: 0.5s ease-in both move_out_right;
+}
+.indietro::view-transition-new(page_tr) {
+    animation: 0.5s ease-in both move_in_left;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script type="importmap">
+        {
+            "imports": {
+                "three": "https://unpkg.com/three@0.160.0/build/three.module.js",
+                "three/addons/": "https://unpkg.com/three@0.160.0/examples/jsm/"
+            }
+        }
+    </script>
+    <link rel="stylesheet" href="./styles/home.css">
+    <link rel="stylesheet" href="./styles/articlesBox.css" type="text/css">
+    <link rel="stylesheet" href="./styles/transition.css">
+    <script src="./scripts/init_transition.js"></script>
+</head>
+<body>
+    <div id="canvas_container" class="background_fisso">
+        <script type="module" src="./scripts/neural.js"></script>
+    </div>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="projects.html">Progetti</a>
+        <a href="articles.html" class="current">Articoli</a>
+    </nav>
+
+    <main id = "page_tr">
+
+        <div id="recenti">
+
+        </div>
+    </main>
+    <script src="./scripts/createBoxForArticle.js" type="text/javascript"></script>
+    <script src="./scripts/transition.js" ></script>
+</body>
+</html>

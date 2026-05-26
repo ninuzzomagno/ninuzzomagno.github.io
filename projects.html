@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <script src="./scripts/init_transition.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script type="importmap">
+        {
+            "imports": {
+                "three": "https://unpkg.com/three@0.160.0/build/three.module.js",
+                "three/addons/": "https://unpkg.com/three@0.160.0/examples/jsm/"
+            }
+        }
+    </script>
+    <link rel="stylesheet" href="./styles/home.css">
+    <link rel="stylesheet" href="./styles/transition.css">
+</head>
+<body>
+    <div id="canvas_container" class="background_fisso">
+        <script type="module" src="./scripts/neural.js"></script>
+    </div>
+    
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="projects.html" class="current">Progetti</a>
+        <a href="articles.html">Articoli</a>
+    </nav>
+
+    <main id = "page_tr" class="avanti">
+        <section>
+            Aggiungerò i miei progetti poco a poco
+            <!-- <h1>
+                Sezione 1
+            </h1>
+            <br>
+            <p>
+                adsfadsfadsfadsfas fa df adf a dsf ads fa df ad fa df a df  a fad f adf ad f ads fa  daf df sfsd fa df asd fa sdf ads fads f adsf a dsasdfadsfasfads
+            </p> -->
+        </section>
+    </main>
+    <script src="./scripts/transition.js" ></script>
+</body>
+</html>

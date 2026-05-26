@@ -1,0 +1,42 @@
+footer{
+    background-color: #1B2A41;
+    padding: 1rem;
+    color: #fff;
+}
+
+footer a, #sommario a{
+    color:#fff;
+}
+
+article, #sommario {
+    max-width: 90vw;
+    margin: 2rem auto;
+    padding: 1.5rem;
+    background: #1B2A41;
+    border-radius: 10px;
+    color:#fff;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: white;
+}
+
+h2 {
+    text-align: center;
+    color: #fff;
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 0.3rem;
+}
+
+article section {
+    min-height: 100vh;
+    padding: 50px 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}

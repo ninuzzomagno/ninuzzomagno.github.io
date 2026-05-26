@@ -1,0 +1,32 @@
+[
+        {       
+                "img":"occhi",
+                "name":"s41565-020-0696-3",
+                "title":"Subretinally injected semiconducting polymer nanoparticles rescue vision in a rat model of retinal dystrophy",
+                "descr":"Nanoparticelle polimeriche per recupero visivo nella distrofia retinica"
+        },
+        {
+                "img":"neuroni",
+                "name":"tessutonervoso3d",
+                "title":"3D bioprinting of human neural tissues with functional connectivity",
+                "descr":"Come ottenere un tessuto nervoso con la stampa 3D"
+        },
+        {
+                "img":"lingua",
+                "name":"brainport",
+                "title":"Alternative Input to the Brain: The BrainPort Vision Device",
+                "descr":"Comunicare informazioni al cervello dall'esterno tramite la lingua"
+        },
+        {
+                "img":"lucertola",
+                "name":"rigenerazionearti",
+                "title":"Retinoic acid breakdown is required for proximodistal positional identity during axolotl limb regeneration",
+                "descr":"Come le salamandre ricostruiscono le braccia: il ruolo chiave dell’acido retinoico"
+        },
+        {
+                "img":"neuroni",
+                "name":"potenziaremitocondri",
+                "title":"Potentiation of mitochondrial function by mitoDREADD-Gs reverses pharmacological and neurodegenerative cognitive impairment in mice",
+                "descr":"Come i mitocondri sono legati ai disturbi neurologici"
+        }
+]

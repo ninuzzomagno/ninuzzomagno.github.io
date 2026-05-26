@@ -1,0 +1,46 @@
+#recenti{
+    padding:10%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+}
+
+.article{
+    width: 100%;
+    background-color: #fff;
+    position: relative;
+    overflow: hidden;
+    float: left;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    cursor: pointer;
+}
+
+.article:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 6px 16px rgba(0,0,0,0.15);
+}
+
+.article img{
+    width:100%;
+    display: block;
+    object-fit: cover;
+    height: 200px;
+}
+
+.descr{
+    padding:1rem;
+    width:100%;
+    position:absolute;
+    left: 0;
+    bottom: 0;
+    color: white;
+    background: linear-gradient(to top, rgba(0,0,0,0.7), rgba(0,0,0,0));
+}
+
+.descr p{
+    margin: 0%;
+    font-size:0.95rem;
+    line-height: 1.4;
+}

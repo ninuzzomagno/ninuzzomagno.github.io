@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script type="importmap">
+        {
+            "imports": {
+                "three": "https://unpkg.com/three@0.160.0/build/three.module.js",
+                "three/addons/": "https://unpkg.com/three@0.160.0/examples/jsm/"
+            }
+        }
+    </script>
+    <link rel="stylesheet" href="./styles/home.css">
+    <link rel="stylesheet" href="./styles/transition.css">
+    <script src="./scripts/init_transition.js"></script>
+</head>
+<body>
+    <div id="canvas_container" class="background_fisso">
+        <script type="module" src="./scripts/neural.js"></script>
+    </div>
+    
+    <nav>
+        <a href="index.html" class="current">Home</a>
+        <a href="projects.html">Progetti</a>
+        <a href="articles.html">Articoli</a>
+    </nav>
+
+    <main id="page_tr" class="indietro">
+        <section>
+            <!-- <div style="background-color: rgba(0,0,0,0.5);padding:5%"> -->
+            <h1>
+                Chi sono
+            </h1>
+            <br>
+            <p>
+                Salve, mi chiamo Antonino e sono un ingegnere biomedico laureato all'Università degli studi di Pisa. Sono da sempre un appassionato di informatica e videogiochi.
+            </p>
+            <br>
+            <p>
+                Ho studiato per molti anni programmazione da autodidatta imparando:<br>
+                <ul style="padding-left:3%">
+                    <li><b>C++</b></li>
+                    <li><b>python</b>(utilizzato anche per la tesi sperimentale della triennale)</li>
+                    <li><b>Matlab</b>(utilizzato anche questo per la triennale)</li>
+                    <li><b>HTML</b></li>
+                    <li><b>CSS</b></li>
+                    <li><b>Javascript</b></li>
+                    <li><b>LUA</b></li>
+                    <li><b>PHP</b></li>
+                    <li><b>MySQL</b></li>
+                </ul>
+            </p>
+            <br>
+            <p>
+                Questo stesso sito web è stato scritto interamente da me.
+            </p>
+            <p>
+                Negli anni ho imparato anche a usare software come <b>Blender</b> e <b>Comsol Multiphycs</b>.
+            </p>
+            <p>
+                Grazie ai corsi universitari ho imparato ad usare in maniera discreta Arduino e per poi fare delle prove su un ESP32 CAM e un ESP32 CAM S3.
+            </p>
+            <br>
+            <p>
+                Ciò che voglio riuscire a fare è creare un videogioco interamente fatto da me, sia i modelli che la parte di programmazione e per questo fine ho anche studiato le api <b>OPENGL 4.6</b> e il <b>GLSL</b>, ho imparato ad usare anche alcune libreria di fisica 2D e 3D come <b>Box2D</b> e <b>reactphysics3d</b>. Adesso devo solo trovare il tempo.
+            </p>
+            <br>
+            <p>
+                A livello lavorativo invece voglio riuscire a lavorare sulle protesi neurali, soprattutto quelle visive.
+            </p>
+            <!-- </div> -->
+        </section>
+        <section>
+            <h1>
+                Contatti
+            </h1>
+            <br>
+            <p>
+                Se per qualsiasi motivo volete contattarmi<br><br>
+                <b>Email: </b><a href="mailto:nino.forestieri97@gmail.com">scrivimi</a><br>
+                <b>Github: </b><a href="https://github.com/ninuzzomagno">clicca qui</a><br>
+            </p>
+        </section>
+    </main>
+    <script src="./scripts/transition.js" ></script>
+</body>
+</html>
