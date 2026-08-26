@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<update_data_list>
+  <package titleid="OMBK00001"> 
+    <target_params version="01.00">
+      <is_patch>true</is_patch>
+    </target_params>
+    <version version="01.01">
+      <vpk url="https://tuonome.github.io/OmniBook/OmniBook.vpk" />
+      <changeinfo url="https://tuonome.github.io/OmniBook/changeinfo.xml" />
+    </version>
+  </package>
+</update_data_list>

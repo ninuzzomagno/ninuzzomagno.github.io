@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<changeinfo titleid="OMBK00001">
+  <changes version="01.01">
+    - Aggiunta selezione parole con Long Press
+    - Aggiunta barra scorrimento laterale durante la lettura
+    - Risolto crash dopo lo standby
+  </changes>
+</changeinfo>
